@@ -1,0 +1,21 @@
+const accountId = "123";
+let accountName = "Dev B Patel";
+var accountPass = "dev@123";
+
+console.table([accountId,accountName,accountPass]);
+
+//Cannot change the variable name as well as data for the CONST Type...
+/*
+    accountID = '1234';
+*/
+
+//for LET Type, one can only change the Data and it cannot redefine again with same name...
+/*
+    let accountName = "ayushi b patel";
+*/
+accountName = "AYUSHI B PATEL";
+
+//for VAR Type, anything can be change so not preferred to be used in real life programs...
+var accountPass = "ayushi@124";
+accountPass = "ayushi@123";
+console.table([accountId,accountName,accountPass]);
